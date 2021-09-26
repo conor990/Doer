@@ -1,0 +1,160 @@
+body{
+    background-color:#222643 !important;
+}
+.container{
+    width:100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.appframe{
+    border: 1px solid #20d19a;
+    border-radius: 40px;
+    width: 549px;
+    height: 454px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #20d19a;
+    box-shadow: 0 2px 12px rgba(233, 208, 207, 0.81);
+    overflow:hidden;
+
+}
+.logo{
+    width:150px;
+    height:10vh;
+    margin-left: 25px;
+    margin-top: 20px ;
+}
+
+
+.textareacol{
+   text-align: center;
+}
+.textarea{
+    margin-top: 30px;
+    width:70%;
+    border-radius: 40px;
+    border: 3px solid #222643;
+    outline: none;
+    box-shadow: 0 2px 12px rgba(37, 37, 77, 0.81);
+}
+#add{
+    height: 40px;
+    margin-left: 5%;
+}
+
+
+#mylist{
+    margin-top: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 23px;
+    color:#222643;
+    text-align: center;
+}
+li{
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
+.removebtn{
+    margin-left: 15px;
+    background-color:#20d19a;
+    color: #FC3746;
+    border: 2px solid #20d19a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.removebtn:active{
+    color: #f5737d;
+}
+
+
+.listdiv{
+    overflow-y:hidden;
+    overflow-y: auto;
+    margin-top:20px;
+    padding-right: 66px;
+    height: 260px;
+    width:100%;
+}
+.listcol{
+    width:100%;
+}
+
+
+::-webkit-scrollbar{
+    width: 25px;
+}
+::-webkit-scrollbar-track{
+    border:7px solid #e7ebfb;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(
+        45deg,
+        #222643,
+        #a0fbf4
+    );
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1030px) {
+    body{
+    }
+
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+
+    .appframe{
+        width: 55vw;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    body{
+        margin: auto;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .appframe{
+        width: 100%;
+        height:80vh;
+        margin-top: 40px;
+    }
+
+    .container{
+        clear: both;
+    }
+
+    .logocol{
+      width:97% !important;
+    }
+
+    .textareacol{
+        width: 97% !important;
+    }
+
+    .listdiv{
+        height: 330px ;
+    }
+}
+
+411 320
